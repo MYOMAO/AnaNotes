@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 SEP 2018 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 SEP 2018 18:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -556,7 +556,11 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count118
 \c@affil=\count119
 )
-(./EMCAL Analysis Notes.aux)
+(./EMCAL Analysis Notes.aux
+
+LaTeX Warning: Label `fig:BlockEMCAL' multiply defined.
+
+)
 \openout1 = `"EMCAL Analysis Notes.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -575,8 +579,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 34.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -680,7 +683,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `"EMCAL Analysis Notes.lof"'.
 
  [5]
-<Plots/TestBeamPhotos/2017TestBeamSetup.png, id=313, 404.712pt x 253.4268pt>
+<Plots/TestBeamPhotos/2017TestBeamSetup.png, id=319, 404.712pt x 253.4268pt>
 File: Plots/TestBeamPhotos/2017TestBeamSetup.png Graphic file (type png)
 
 <use Plots/TestBeamPhotos/2017TestBeamSetup.png>
@@ -688,7 +691,7 @@ Package pdftex.def Info: Plots/TestBeamPhotos/2017TestBeamSetup.png used on inp
 ut line 114.
 (pdftex.def)             Requested size: 140.92793pt x 88.24826pt.
 
-<Plots/TestBeamPhotos/2018TestBeamSetup.png, id=315, 4047.12pt x 3035.34pt>
+<Plots/TestBeamPhotos/2018TestBeamSetup.png, id=321, 4047.12pt x 3035.34pt>
 File: Plots/TestBeamPhotos/2018TestBeamSetup.png Graphic file (type png)
 
 <use Plots/TestBeamPhotos/2018TestBeamSetup.png>
@@ -698,14 +701,14 @@ ut line 115.
  [6
 
 ]
-<Plots/2017ScanPath.png, id=330, 349.7868pt x 306.9066pt>
+<Plots/2017ScanPath.png, id=336, 349.7868pt x 306.9066pt>
 File: Plots/2017ScanPath.png Graphic file (type png)
 
 <use Plots/2017ScanPath.png>
 Package pdftex.def Info: Plots/2017ScanPath.png used on input line 139.
 (pdftex.def)             Requested size: 140.92793pt x 123.65022pt.
 
-<Plots/2018ScanPath.png, id=331, 264.0264pt x 275.1078pt>
+<Plots/2018ScanPath.png, id=337, 264.0264pt x 275.1078pt>
 File: Plots/2018ScanPath.png Graphic file (type png)
 
 <use Plots/2018ScanPath.png>
@@ -736,7 +739,7 @@ Overfull \hbox (4.59242pt too wide) in paragraph at lines 167--168
 f" for-mat to ``.DSTReader.root" and then to ``.EM-Cal-Calib.root"
  []
 
-[9] <Plots/Hodo/Hodoscope20172nd.png, id=366, 1200.485pt x 1176.395pt>
+[9] <Plots/Hodo/Hodoscope20172nd.png, id=372, 1200.485pt x 1176.395pt>
 File: Plots/Hodo/Hodoscope20172nd.png Graphic file (type png)
 
 <use Plots/Hodo/Hodoscope20172nd.png>
@@ -744,7 +747,7 @@ Package pdftex.def Info: Plots/Hodo/Hodoscope20172nd.png used on input line 214
 .
 (pdftex.def)             Requested size: 178.5092pt x 174.92586pt.
 
-<Plots/Hodo/Hodoscope20173rd.png, id=367, 1200.485pt x 1176.395pt>
+<Plots/Hodo/Hodoscope20173rd.png, id=373, 1200.485pt x 1176.395pt>
 File: Plots/Hodo/Hodoscope20173rd.png Graphic file (type png)
 
 <use Plots/Hodo/Hodoscope20173rd.png>
@@ -752,7 +755,7 @@ Package pdftex.def Info: Plots/Hodo/Hodoscope20173rd.png used on input line 215
 .
 (pdftex.def)             Requested size: 178.5092pt x 174.92586pt.
 
-<Plots/Hodo/Hodoscope20183rd.png, id=368, 1200.485pt x 1176.395pt>
+<Plots/Hodo/Hodoscope20183rd.png, id=374, 1200.485pt x 1176.395pt>
 File: Plots/Hodo/Hodoscope20183rd.png Graphic file (type png)
 
 <use Plots/Hodo/Hodoscope20183rd.png>
@@ -760,7 +763,7 @@ Package pdftex.def Info: Plots/Hodo/Hodoscope20183rd.png used on input line 216
 .
 (pdftex.def)             Requested size: 178.5092pt x 174.92586pt.
 
-<Plots/Hodo/Hodoscope20184th.png, id=369, 1200.485pt x 1176.395pt>
+<Plots/Hodo/Hodoscope20184th.png, id=375, 1200.485pt x 1176.395pt>
 File: Plots/Hodo/Hodoscope20184th.png Graphic file (type png)
 
 <use Plots/Hodo/Hodoscope20184th.png>
@@ -768,7 +771,7 @@ Package pdftex.def Info: Plots/Hodo/Hodoscope20184th.png used on input line 217
 .
 (pdftex.def)             Requested size: 178.5092pt x 174.92586pt.
 
-<Plots/Hodo/Hodoscope20185th.png, id=370, 1200.485pt x 1176.395pt>
+<Plots/Hodo/Hodoscope20185th.png, id=376, 1200.485pt x 1176.395pt>
 File: Plots/Hodo/Hodoscope20185th.png Graphic file (type png)
 
 <use Plots/Hodo/Hodoscope20185th.png>
@@ -776,7 +779,7 @@ Package pdftex.def Info: Plots/Hodo/Hodoscope20185th.png used on input line 218
 .
 (pdftex.def)             Requested size: 140.92793pt x 138.0918pt.
 
-<Plots/Hodo/Hodoscope20186th.png, id=371, 1200.485pt x 1176.395pt>
+<Plots/Hodo/Hodoscope20186th.png, id=377, 1200.485pt x 1176.395pt>
 File: Plots/Hodo/Hodoscope20186th.png Graphic file (type png)
 
 <use Plots/Hodo/Hodoscope20186th.png>
@@ -784,7 +787,7 @@ Package pdftex.def Info: Plots/Hodo/Hodoscope20186th.png used on input line 219
 .
 (pdftex.def)             Requested size: 140.92793pt x 138.0918pt.
 
-<Plots/Hodo/Hodoscope20187th.png, id=372, 1200.485pt x 1176.395pt>
+<Plots/Hodo/Hodoscope20187th.png, id=378, 1200.485pt x 1176.395pt>
 File: Plots/Hodo/Hodoscope20187th.png Graphic file (type png)
 
 <use Plots/Hodo/Hodoscope20187th.png>
@@ -796,7 +799,7 @@ g> <./Plots/Hodo/Hodoscope20183rd.png> <./Plots/Hodo/Hodoscope20184th.png> <./P
 lots/Hodo/Hodoscope20185th.png> <./Plots/Hodo/Hodoscope20186th.png> <./Plots/Ho
 do/Hodoscope20187th.png>]
 <Plots/Spectra/Plot_2017_Interpolation-sPHENIX-Rotation-Reversed_Fits_recalib_1
-84-181.png, id=386, 798.985pt x 574.145pt>
+84-181.png, id=392, 798.985pt x 574.145pt>
 File: Plots/Spectra/Plot_2017_Interpolation-sPHENIX-Rotation-Reversed_Fits_reca
 lib_184-181.png Graphic file (type png)
 
@@ -807,7 +810,7 @@ Package pdftex.def Info: Plots/Spectra/Plot_2017_Interpolation-sPHENIX-Rotation
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
 <Plots/Spectra/Plot_2017_Interpolation-Dual-Channel-Reversed_Fits_recalib_178-7
-4.png, id=387, 798.985pt x 574.145pt>
+4.png, id=393, 798.985pt x 574.145pt>
 File: Plots/Spectra/Plot_2017_Interpolation-Dual-Channel-Reversed_Fits_recalib_
 178-74.png Graphic file (type png)
 
@@ -818,7 +821,7 @@ ersed_Fits_recalib_178-74.png used on input line 293.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
 <Plots/Spectra/Plot_2018_Interpolation-Dual-Channel-Reversed_Fits_recalib_405-2
-56.png, id=388, 798.985pt x 574.145pt>
+56.png, id=394, 798.985pt x 574.145pt>
 File: Plots/Spectra/Plot_2018_Interpolation-Dual-Channel-Reversed_Fits_recalib_
 405-256.png Graphic file (type png)
 
@@ -829,7 +832,7 @@ ersed_Fits_recalib_405-256.png used on input line 294.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
 <Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation-Reversed_Fits_recalib_4
-01-119.png, id=389, 798.985pt x 574.145pt>
+01-119.png, id=395, 798.985pt x 574.145pt>
 File: Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation-Reversed_Fits_reca
 lib_401-119.png Graphic file (type png)
 
@@ -840,7 +843,7 @@ Package pdftex.def Info: Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
 <Plots/Spectra/Plot_2018_Interpolation-Dual-Channel-Reversed_Fits_prod_518-150.
-png, id=390, 798.985pt x 574.145pt>
+png, id=396, 798.985pt x 574.145pt>
 File: Plots/Spectra/Plot_2018_Interpolation-Dual-Channel-Reversed_Fits_prod_518
 -150.png Graphic file (type png)
 
@@ -851,7 +854,7 @@ ersed_Fits_prod_518-150.png used on input line 296.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
 <Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation-More-Reversed_Fits_prod
-_493-163.png, id=391, 798.985pt x 574.145pt>
+_493-163.png, id=397, 798.985pt x 574.145pt>
 File: Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation-More-Reversed_Fits
 _prod_493-163.png Graphic file (type png)
 
@@ -862,7 +865,7 @@ Package pdftex.def Info: Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
 <Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation-Reversed_Fits_prod_445-
-125.png, id=392, 798.985pt x 574.145pt>
+125.png, id=398, 798.985pt x 574.145pt>
 File: Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation-Reversed_Fits_prod
 _445-125.png Graphic file (type png)
 
@@ -872,7 +875,7 @@ Package pdftex.def Info: Plots/Spectra/Plot_2018_Interpolation-sPHENIX-Rotation
 -Reversed_Fits_prod_445-125.png used on input line 298.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/StatPo/StatPo20172ndScan.png, id=394, 798.985pt x 574.145pt>
+<Plots/StatPo/StatPo20172ndScan.png, id=400, 798.985pt x 574.145pt>
 File: Plots/StatPo/StatPo20172ndScan.png Graphic file (type png)
 
 <use Plots/StatPo/StatPo20172ndScan.png>
@@ -880,7 +883,7 @@ Package pdftex.def Info: Plots/StatPo/StatPo20172ndScan.png used on input line
 308.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/StatPo/StatPo20173rdScan.png, id=395, 798.985pt x 574.145pt>
+<Plots/StatPo/StatPo20173rdScan.png, id=401, 798.985pt x 574.145pt>
 File: Plots/StatPo/StatPo20173rdScan.png Graphic file (type png)
 
 <use Plots/StatPo/StatPo20173rdScan.png>
@@ -888,7 +891,7 @@ Package pdftex.def Info: Plots/StatPo/StatPo20173rdScan.png used on input line
 309.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/StatPo/StatPo20183rdScan.png, id=396, 798.985pt x 574.145pt>
+<Plots/StatPo/StatPo20183rdScan.png, id=402, 798.985pt x 574.145pt>
 File: Plots/StatPo/StatPo20183rdScan.png Graphic file (type png)
 
 <use Plots/StatPo/StatPo20183rdScan.png>
@@ -896,7 +899,7 @@ Package pdftex.def Info: Plots/StatPo/StatPo20183rdScan.png used on input line
 310.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/StatPo/StatPo20184thScan.png, id=397, 798.985pt x 574.145pt>
+<Plots/StatPo/StatPo20184thScan.png, id=403, 798.985pt x 574.145pt>
 File: Plots/StatPo/StatPo20184thScan.png Graphic file (type png)
 
 <use Plots/StatPo/StatPo20184thScan.png>
@@ -904,7 +907,7 @@ Package pdftex.def Info: Plots/StatPo/StatPo20184thScan.png used on input line
 311.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/StatPo/StatPo20185thScan.png, id=398, 798.985pt x 574.145pt>
+<Plots/StatPo/StatPo20185thScan.png, id=404, 798.985pt x 574.145pt>
 File: Plots/StatPo/StatPo20185thScan.png Graphic file (type png)
 
 <use Plots/StatPo/StatPo20185thScan.png>
@@ -912,7 +915,7 @@ Package pdftex.def Info: Plots/StatPo/StatPo20185thScan.png used on input line
 312.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/StatPo/StatPo20186thScan.png, id=399, 798.985pt x 574.145pt>
+<Plots/StatPo/StatPo20186thScan.png, id=405, 798.985pt x 574.145pt>
 File: Plots/StatPo/StatPo20186thScan.png Graphic file (type png)
 
 <use Plots/StatPo/StatPo20186thScan.png>
@@ -920,7 +923,7 @@ Package pdftex.def Info: Plots/StatPo/StatPo20186thScan.png used on input line
 313.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/StatPo/StatPo20187thScan.png, id=400, 798.985pt x 574.145pt>
+<Plots/StatPo/StatPo20187thScan.png, id=406, 798.985pt x 574.145pt>
 File: Plots/StatPo/StatPo20187thScan.png Graphic file (type png)
 
 <use Plots/StatPo/StatPo20187thScan.png>
@@ -928,7 +931,7 @@ Package pdftex.def Info: Plots/StatPo/StatPo20187thScan.png used on input line
 314.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoMeanMethod/EnPo20172ndScan.png, id=404, 798.985pt x 574.145pt>
+<Plots/EnpoMeanMethod/EnPo20172ndScan.png, id=410, 798.985pt x 574.145pt>
 File: Plots/EnpoMeanMethod/EnPo20172ndScan.png Graphic file (type png)
 
 <use Plots/EnpoMeanMethod/EnPo20172ndScan.png>
@@ -936,7 +939,7 @@ Package pdftex.def Info: Plots/EnpoMeanMethod/EnPo20172ndScan.png used on input
  line 328.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoMeanMethod/EnPo20173rdScan.png, id=405, 798.985pt x 574.145pt>
+<Plots/EnpoMeanMethod/EnPo20173rdScan.png, id=411, 798.985pt x 574.145pt>
 File: Plots/EnpoMeanMethod/EnPo20173rdScan.png Graphic file (type png)
 
 <use Plots/EnpoMeanMethod/EnPo20173rdScan.png>
@@ -944,7 +947,7 @@ Package pdftex.def Info: Plots/EnpoMeanMethod/EnPo20173rdScan.png used on input
  line 329.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoMeanMethod/EnPo20183rdScan.png, id=406, 798.985pt x 574.145pt>
+<Plots/EnpoMeanMethod/EnPo20183rdScan.png, id=412, 798.985pt x 574.145pt>
 File: Plots/EnpoMeanMethod/EnPo20183rdScan.png Graphic file (type png)
 
 <use Plots/EnpoMeanMethod/EnPo20183rdScan.png>
@@ -952,7 +955,7 @@ Package pdftex.def Info: Plots/EnpoMeanMethod/EnPo20183rdScan.png used on input
  line 330.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoMeanMethod/EnPo20184thScan.png, id=407, 798.985pt x 574.145pt>
+<Plots/EnpoMeanMethod/EnPo20184thScan.png, id=413, 798.985pt x 574.145pt>
 File: Plots/EnpoMeanMethod/EnPo20184thScan.png Graphic file (type png)
 
 <use Plots/EnpoMeanMethod/EnPo20184thScan.png>
@@ -960,7 +963,7 @@ Package pdftex.def Info: Plots/EnpoMeanMethod/EnPo20184thScan.png used on input
  line 331.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoMeanMethod/EnPo20185thScan.png, id=408, 798.985pt x 574.145pt>
+<Plots/EnpoMeanMethod/EnPo20185thScan.png, id=414, 798.985pt x 574.145pt>
 File: Plots/EnpoMeanMethod/EnPo20185thScan.png Graphic file (type png)
 
 <use Plots/EnpoMeanMethod/EnPo20185thScan.png>
@@ -968,7 +971,7 @@ Package pdftex.def Info: Plots/EnpoMeanMethod/EnPo20185thScan.png used on input
  line 332.
 (pdftex.def)             Requested size: 155.02pt x 111.39275pt.
 
-<Plots/EnpoMeanMethod/EnPo20186thScan.png, id=409, 798.985pt x 574.145pt>
+<Plots/EnpoMeanMethod/EnPo20186thScan.png, id=415, 798.985pt x 574.145pt>
 File: Plots/EnpoMeanMethod/EnPo20186thScan.png Graphic file (type png)
 
 <use Plots/EnpoMeanMethod/EnPo20186thScan.png>
@@ -976,7 +979,7 @@ Package pdftex.def Info: Plots/EnpoMeanMethod/EnPo20186thScan.png used on input
  line 333.
 (pdftex.def)             Requested size: 155.02pt x 111.39275pt.
 
-<Plots/EnpoMeanMethod/EnPo20187thScan.png, id=410, 798.985pt x 574.145pt>
+<Plots/EnpoMeanMethod/EnPo20187thScan.png, id=416, 798.985pt x 574.145pt>
 File: Plots/EnpoMeanMethod/EnPo20187thScan.png Graphic file (type png)
 
 <use Plots/EnpoMeanMethod/EnPo20187thScan.png>
@@ -984,7 +987,7 @@ Package pdftex.def Info: Plots/EnpoMeanMethod/EnPo20187thScan.png used on input
  line 334.
 (pdftex.def)             Requested size: 155.02pt x 111.39275pt.
 
-<Plots/EnpoFitsMethod/EnPo20172ndScan.png, id=411, 798.985pt x 574.145pt>
+<Plots/EnpoFitsMethod/EnPo20172ndScan.png, id=417, 798.985pt x 574.145pt>
 File: Plots/EnpoFitsMethod/EnPo20172ndScan.png Graphic file (type png)
 
 <use Plots/EnpoFitsMethod/EnPo20172ndScan.png>
@@ -992,7 +995,7 @@ Package pdftex.def Info: Plots/EnpoFitsMethod/EnPo20172ndScan.png used on input
  line 343.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoFitsMethod/EnPo20173rdScan.png, id=412, 798.985pt x 574.145pt>
+<Plots/EnpoFitsMethod/EnPo20173rdScan.png, id=418, 798.985pt x 574.145pt>
 File: Plots/EnpoFitsMethod/EnPo20173rdScan.png Graphic file (type png)
 
 <use Plots/EnpoFitsMethod/EnPo20173rdScan.png>
@@ -1000,7 +1003,7 @@ Package pdftex.def Info: Plots/EnpoFitsMethod/EnPo20173rdScan.png used on input
  line 344.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoFitsMethod/EnPo20183rdScan.png, id=413, 798.985pt x 574.145pt>
+<Plots/EnpoFitsMethod/EnPo20183rdScan.png, id=419, 798.985pt x 574.145pt>
 File: Plots/EnpoFitsMethod/EnPo20183rdScan.png Graphic file (type png)
 
 <use Plots/EnpoFitsMethod/EnPo20183rdScan.png>
@@ -1008,7 +1011,7 @@ Package pdftex.def Info: Plots/EnpoFitsMethod/EnPo20183rdScan.png used on input
  line 345.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoFitsMethod/EnPo20184thScan.png, id=414, 798.985pt x 574.145pt>
+<Plots/EnpoFitsMethod/EnPo20184thScan.png, id=420, 798.985pt x 574.145pt>
 File: Plots/EnpoFitsMethod/EnPo20184thScan.png Graphic file (type png)
 
 <use Plots/EnpoFitsMethod/EnPo20184thScan.png>
@@ -1016,7 +1019,7 @@ Package pdftex.def Info: Plots/EnpoFitsMethod/EnPo20184thScan.png used on input
  line 346.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/EnpoFitsMethod/EnPo20185thScan.png, id=415, 798.985pt x 574.145pt>
+<Plots/EnpoFitsMethod/EnPo20185thScan.png, id=421, 798.985pt x 574.145pt>
 File: Plots/EnpoFitsMethod/EnPo20185thScan.png Graphic file (type png)
 
 <use Plots/EnpoFitsMethod/EnPo20185thScan.png>
@@ -1024,7 +1027,7 @@ Package pdftex.def Info: Plots/EnpoFitsMethod/EnPo20185thScan.png used on input
  line 347.
 (pdftex.def)             Requested size: 155.02pt x 111.39275pt.
 
-<Plots/EnpoFitsMethod/EnPo20186thScan.png, id=416, 798.985pt x 574.145pt>
+<Plots/EnpoFitsMethod/EnPo20186thScan.png, id=422, 798.985pt x 574.145pt>
 File: Plots/EnpoFitsMethod/EnPo20186thScan.png Graphic file (type png)
 
 <use Plots/EnpoFitsMethod/EnPo20186thScan.png>
@@ -1032,7 +1035,7 @@ Package pdftex.def Info: Plots/EnpoFitsMethod/EnPo20186thScan.png used on input
  line 348.
 (pdftex.def)             Requested size: 155.02pt x 111.39275pt.
 
-<Plots/EnpoFitsMethod/EnPo20187thScan.png, id=417, 798.985pt x 574.145pt>
+<Plots/EnpoFitsMethod/EnPo20187thScan.png, id=423, 798.985pt x 574.145pt>
 File: Plots/EnpoFitsMethod/EnPo20187thScan.png Graphic file (type png)
 
 <use Plots/EnpoFitsMethod/EnPo20187thScan.png>
@@ -1059,7 +1062,7 @@ Method/EnPo20172ndScan.png> <./Plots/EnpoFitsMethod/EnPo20173rdScan.png> <./Plo
 ts/EnpoFitsMethod/EnPo20183rdScan.png> <./Plots/EnpoFitsMethod/EnPo20184thScan.
 png> <./Plots/EnpoFitsMethod/EnPo20185thScan.png> <./Plots/EnpoFitsMethod/EnPo2
 0186thScan.png> <./Plots/EnpoFitsMethod/EnPo20187thScan.png>]
-<Plots/InterMean/Inter20172ndScan.png, id=443, 798.985pt x 574.145pt>
+<Plots/InterMean/Inter20172ndScan.png, id=449, 798.985pt x 574.145pt>
 File: Plots/InterMean/Inter20172ndScan.png Graphic file (type png)
 
 <use Plots/InterMean/Inter20172ndScan.png>
@@ -1067,7 +1070,7 @@ Package pdftex.def Info: Plots/InterMean/Inter20172ndScan.png used on input lin
 e 363.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterMean/Inter20173rdScan.png, id=444, 798.985pt x 574.145pt>
+<Plots/InterMean/Inter20173rdScan.png, id=450, 798.985pt x 574.145pt>
 File: Plots/InterMean/Inter20173rdScan.png Graphic file (type png)
 
 <use Plots/InterMean/Inter20173rdScan.png>
@@ -1075,7 +1078,7 @@ Package pdftex.def Info: Plots/InterMean/Inter20173rdScan.png used on input lin
 e 364.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterMean/Inter20183rdScan.png, id=445, 798.985pt x 574.145pt>
+<Plots/InterMean/Inter20183rdScan.png, id=451, 798.985pt x 574.145pt>
 File: Plots/InterMean/Inter20183rdScan.png Graphic file (type png)
 
 <use Plots/InterMean/Inter20183rdScan.png>
@@ -1083,7 +1086,7 @@ Package pdftex.def Info: Plots/InterMean/Inter20183rdScan.png used on input lin
 e 365.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterMean/Inter20184thScan.png, id=446, 798.985pt x 574.145pt>
+<Plots/InterMean/Inter20184thScan.png, id=452, 798.985pt x 574.145pt>
 File: Plots/InterMean/Inter20184thScan.png Graphic file (type png)
 
 <use Plots/InterMean/Inter20184thScan.png>
@@ -1091,7 +1094,7 @@ Package pdftex.def Info: Plots/InterMean/Inter20184thScan.png used on input lin
 e 366.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterMean/Inter20185thScan.png, id=447, 798.985pt x 574.145pt>
+<Plots/InterMean/Inter20185thScan.png, id=453, 798.985pt x 574.145pt>
 File: Plots/InterMean/Inter20185thScan.png Graphic file (type png)
 
 <use Plots/InterMean/Inter20185thScan.png>
@@ -1099,7 +1102,7 @@ Package pdftex.def Info: Plots/InterMean/Inter20185thScan.png used on input lin
 e 367.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterMean/Inter20186thScan.png, id=448, 798.985pt x 574.145pt>
+<Plots/InterMean/Inter20186thScan.png, id=454, 798.985pt x 574.145pt>
 File: Plots/InterMean/Inter20186thScan.png Graphic file (type png)
 
 <use Plots/InterMean/Inter20186thScan.png>
@@ -1107,7 +1110,7 @@ Package pdftex.def Info: Plots/InterMean/Inter20186thScan.png used on input lin
 e 368.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterMean/Inter20187thScan.png, id=449, 798.985pt x 574.145pt>
+<Plots/InterMean/Inter20187thScan.png, id=455, 798.985pt x 574.145pt>
 File: Plots/InterMean/Inter20187thScan.png Graphic file (type png)
 
 <use Plots/InterMean/Inter20187thScan.png>
@@ -1115,7 +1118,7 @@ Package pdftex.def Info: Plots/InterMean/Inter20187thScan.png used on input lin
 e 369.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFits/Inter20172ndScan.png, id=450, 798.985pt x 574.145pt>
+<Plots/InterFits/Inter20172ndScan.png, id=456, 798.985pt x 574.145pt>
 File: Plots/InterFits/Inter20172ndScan.png Graphic file (type png)
 
 <use Plots/InterFits/Inter20172ndScan.png>
@@ -1123,7 +1126,7 @@ Package pdftex.def Info: Plots/InterFits/Inter20172ndScan.png used on input lin
 e 377.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFits/Inter20173rdScan.png, id=451, 798.985pt x 574.145pt>
+<Plots/InterFits/Inter20173rdScan.png, id=457, 798.985pt x 574.145pt>
 File: Plots/InterFits/Inter20173rdScan.png Graphic file (type png)
 
 <use Plots/InterFits/Inter20173rdScan.png>
@@ -1131,7 +1134,7 @@ Package pdftex.def Info: Plots/InterFits/Inter20173rdScan.png used on input lin
 e 378.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFits/Inter20183rdScan.png, id=452, 798.985pt x 574.145pt>
+<Plots/InterFits/Inter20183rdScan.png, id=458, 798.985pt x 574.145pt>
 File: Plots/InterFits/Inter20183rdScan.png Graphic file (type png)
 
 <use Plots/InterFits/Inter20183rdScan.png>
@@ -1139,7 +1142,7 @@ Package pdftex.def Info: Plots/InterFits/Inter20183rdScan.png used on input lin
 e 379.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFits/Inter20184thScan.png, id=453, 798.985pt x 574.145pt>
+<Plots/InterFits/Inter20184thScan.png, id=459, 798.985pt x 574.145pt>
 File: Plots/InterFits/Inter20184thScan.png Graphic file (type png)
 
 <use Plots/InterFits/Inter20184thScan.png>
@@ -1147,7 +1150,7 @@ Package pdftex.def Info: Plots/InterFits/Inter20184thScan.png used on input lin
 e 380.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFits/Inter20185thScan.png, id=454, 798.985pt x 574.145pt>
+<Plots/InterFits/Inter20185thScan.png, id=460, 798.985pt x 574.145pt>
 File: Plots/InterFits/Inter20185thScan.png Graphic file (type png)
 
 <use Plots/InterFits/Inter20185thScan.png>
@@ -1155,7 +1158,7 @@ Package pdftex.def Info: Plots/InterFits/Inter20185thScan.png used on input lin
 e 381.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFits/Inter20186thScan.png, id=455, 798.985pt x 574.145pt>
+<Plots/InterFits/Inter20186thScan.png, id=461, 798.985pt x 574.145pt>
 File: Plots/InterFits/Inter20186thScan.png Graphic file (type png)
 
 <use Plots/InterFits/Inter20186thScan.png>
@@ -1163,7 +1166,7 @@ Package pdftex.def Info: Plots/InterFits/Inter20186thScan.png used on input lin
 e 382.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFits/Inter20187thScan.png, id=456, 798.985pt x 574.145pt>
+<Plots/InterFits/Inter20187thScan.png, id=462, 798.985pt x 574.145pt>
 File: Plots/InterFits/Inter20187thScan.png Graphic file (type png)
 
 <use Plots/InterFits/Inter20187thScan.png>
@@ -1171,7 +1174,12 @@ Package pdftex.def Info: Plots/InterFits/Inter20187thScan.png used on input lin
 e 383.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/BlockConfig/Inter20172ndScanLabeled.png, id=458, 1418.29875pt x 1038.881
+
+LaTeX Warning: Reference `fig:BlockEMCAL2018' on page 17 undefined on input lin
+e 391.
+
+
+<Plots/BlockConfig/Inter20172ndScanLabeled.png, id=464, 1418.29875pt x 1038.881
 26pt>
 File: Plots/BlockConfig/Inter20172ndScanLabeled.png Graphic file (type png)
  <use Plots/BlockConfig/Inter20172ndScanLabeled.png>
@@ -1179,7 +1187,7 @@ Package pdftex.def Info: Plots/BlockConfig/Inter20172ndScanLabeled.png used on
 input line 395.
 (pdftex.def)             Requested size: 178.5092pt x 130.74754pt.
 
-<Plots/BlockConfig/Inter20173rdScanLabeled.png, id=459, 1409.265pt x 1033.8625p
+<Plots/BlockConfig/Inter20173rdScanLabeled.png, id=465, 1409.265pt x 1033.8625p
 t>
 File: Plots/BlockConfig/Inter20173rdScanLabeled.png Graphic file (type png)
  <use Plots/BlockConfig/Inter20173rdScanLabeled.png>
@@ -1187,7 +1195,7 @@ Package pdftex.def Info: Plots/BlockConfig/Inter20173rdScanLabeled.png used on
 input line 396.
 (pdftex.def)             Requested size: 178.5092pt x 130.95201pt.
 
-<Plots/BlockConfig/BlockConfig.png, id=460, 318.9516pt x 311.2428pt>
+<Plots/BlockConfig/BlockConfig.png, id=466, 318.9516pt x 311.2428pt>
 File: Plots/BlockConfig/BlockConfig.png Graphic file (type png)
 
 <use Plots/BlockConfig/BlockConfig.png>
@@ -1195,424 +1203,456 @@ Package pdftex.def Info: Plots/BlockConfig/BlockConfig.png used on input line 3
 97.
 (pdftex.def)             Requested size: 178.5092pt x 174.19978pt.
 
-<Plots/InterMeanWithLine/Inter20172ndScan.png, id=463, 798.985pt x 574.145pt>
+<Plots/BlockConfig/Inter20185thScanLabeled.png, id=467, 722.7pt x 542.025pt>
+File: Plots/BlockConfig/Inter20185thScanLabeled.png Graphic file (type png)
+
+<use Plots/BlockConfig/Inter20185thScanLabeled.png>
+Package pdftex.def Info: Plots/BlockConfig/Inter20185thScanLabeled.png used on 
+input line 405.
+(pdftex.def)             Requested size: 178.5092pt x 133.8766pt.
+
+<Plots/BlockConfig/Inter20186thScanLabeled.png, id=468, 722.7pt x 542.025pt>
+File: Plots/BlockConfig/Inter20186thScanLabeled.png Graphic file (type png)
+
+<use Plots/BlockConfig/Inter20186thScanLabeled.png>
+Package pdftex.def Info: Plots/BlockConfig/Inter20186thScanLabeled.png used on 
+input line 406.
+(pdftex.def)             Requested size: 178.5092pt x 133.8766pt.
+
+<Plots/BlockConfig/Inter20187thScanLabeled.png, id=469, 722.7pt x 542.025pt>
+File: Plots/BlockConfig/Inter20187thScanLabeled.png Graphic file (type png)
+
+<use Plots/BlockConfig/Inter20187thScanLabeled.png>
+Package pdftex.def Info: Plots/BlockConfig/Inter20187thScanLabeled.png used on 
+input line 407.
+(pdftex.def)             Requested size: 178.5092pt x 133.8766pt.
+
+<Plots/BlockConfig/BlockConfig2018.png, id=470, 722.7pt x 542.025pt>
+File: Plots/BlockConfig/BlockConfig2018.png Graphic file (type png)
+
+<use Plots/BlockConfig/BlockConfig2018.png>
+Package pdftex.def Info: Plots/BlockConfig/BlockConfig2018.png used on input li
+ne 408.
+(pdftex.def)             Requested size: 178.5092pt x 133.8766pt.
+
+<Plots/InterMeanWithLine/Inter20172ndScan.png, id=473, 798.985pt x 574.145pt>
 File: Plots/InterMeanWithLine/Inter20172ndScan.png Graphic file (type png)
 
 <use Plots/InterMeanWithLine/Inter20172ndScan.png>
 Package pdftex.def Info: Plots/InterMeanWithLine/Inter20172ndScan.png used on i
-nput line 408.
+nput line 419.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterMeanWithLine/Inter20173rdScan.png, id=464, 798.985pt x 574.145pt>
+<Plots/InterMeanWithLine/Inter20173rdScan.png, id=474, 798.985pt x 574.145pt>
 File: Plots/InterMeanWithLine/Inter20173rdScan.png Graphic file (type png)
 
 <use Plots/InterMeanWithLine/Inter20173rdScan.png>
 Package pdftex.def Info: Plots/InterMeanWithLine/Inter20173rdScan.png used on i
-nput line 409.
+nput line 420.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterMean/EnPo20183rdScan.png, id=465, 798.985pt x 574.145pt>
+<Plots/2018NoInterMean/EnPo20183rdScan.png, id=475, 798.985pt x 574.145pt>
 File: Plots/2018NoInterMean/EnPo20183rdScan.png Graphic file (type png)
 
 <use Plots/2018NoInterMean/EnPo20183rdScan.png>
 Package pdftex.def Info: Plots/2018NoInterMean/EnPo20183rdScan.png used on inpu
-t line 410.
+t line 421.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterMean/EnPo20184thScan.png, id=466, 798.985pt x 574.145pt>
+<Plots/2018NoInterMean/EnPo20184thScan.png, id=476, 798.985pt x 574.145pt>
 File: Plots/2018NoInterMean/EnPo20184thScan.png Graphic file (type png)
 
 <use Plots/2018NoInterMean/EnPo20184thScan.png>
 Package pdftex.def Info: Plots/2018NoInterMean/EnPo20184thScan.png used on inpu
-t line 411.
+t line 422.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterMean/EnPo20185thScan.png, id=467, 798.985pt x 574.145pt>
+<Plots/2018NoInterMean/EnPo20185thScan.png, id=477, 798.985pt x 574.145pt>
 File: Plots/2018NoInterMean/EnPo20185thScan.png Graphic file (type png)
 
 <use Plots/2018NoInterMean/EnPo20185thScan.png>
 Package pdftex.def Info: Plots/2018NoInterMean/EnPo20185thScan.png used on inpu
-t line 412.
+t line 423.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterMean/EnPo20186thScan.png, id=468, 798.985pt x 574.145pt>
+<Plots/2018NoInterMean/EnPo20186thScan.png, id=478, 798.985pt x 574.145pt>
 File: Plots/2018NoInterMean/EnPo20186thScan.png Graphic file (type png)
 
 <use Plots/2018NoInterMean/EnPo20186thScan.png>
 Package pdftex.def Info: Plots/2018NoInterMean/EnPo20186thScan.png used on inpu
-t line 413.
+t line 424.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterMean/EnPo20187thScan.png, id=469, 798.985pt x 574.145pt>
+<Plots/2018NoInterMean/EnPo20187thScan.png, id=479, 798.985pt x 574.145pt>
 File: Plots/2018NoInterMean/EnPo20187thScan.png Graphic file (type png)
 
 <use Plots/2018NoInterMean/EnPo20187thScan.png>
 Package pdftex.def Info: Plots/2018NoInterMean/EnPo20187thScan.png used on inpu
-t line 414.
+t line 425.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFitsWithLine/Inter20172ndScan.png, id=470, 798.985pt x 574.145pt>
+<Plots/InterFitsWithLine/Inter20172ndScan.png, id=480, 798.985pt x 574.145pt>
 File: Plots/InterFitsWithLine/Inter20172ndScan.png Graphic file (type png)
 
 <use Plots/InterFitsWithLine/Inter20172ndScan.png>
 Package pdftex.def Info: Plots/InterFitsWithLine/Inter20172ndScan.png used on i
-nput line 423.
+nput line 434.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/InterFitsWithLine/Inter20173rdScan.png, id=471, 798.985pt x 574.145pt>
+<Plots/InterFitsWithLine/Inter20173rdScan.png, id=481, 798.985pt x 574.145pt>
 File: Plots/InterFitsWithLine/Inter20173rdScan.png Graphic file (type png)
 
 <use Plots/InterFitsWithLine/Inter20173rdScan.png>
 Package pdftex.def Info: Plots/InterFitsWithLine/Inter20173rdScan.png used on i
-nput line 424.
+nput line 435.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterFits/EnPo20183rdScan.png, id=472, 798.985pt x 574.145pt>
+<Plots/2018NoInterFits/EnPo20183rdScan.png, id=482, 798.985pt x 574.145pt>
 File: Plots/2018NoInterFits/EnPo20183rdScan.png Graphic file (type png)
 
 <use Plots/2018NoInterFits/EnPo20183rdScan.png>
 Package pdftex.def Info: Plots/2018NoInterFits/EnPo20183rdScan.png used on inpu
-t line 425.
+t line 436.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterFits/EnPo20184thScan.png, id=473, 798.985pt x 574.145pt>
+<Plots/2018NoInterFits/EnPo20184thScan.png, id=483, 798.985pt x 574.145pt>
 File: Plots/2018NoInterFits/EnPo20184thScan.png Graphic file (type png)
 
 <use Plots/2018NoInterFits/EnPo20184thScan.png>
 Package pdftex.def Info: Plots/2018NoInterFits/EnPo20184thScan.png used on inpu
-t line 426.
+t line 437.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterFits/EnPo20185thScan.png, id=474, 798.985pt x 574.145pt>
+<Plots/2018NoInterFits/EnPo20185thScan.png, id=484, 798.985pt x 574.145pt>
 File: Plots/2018NoInterFits/EnPo20185thScan.png Graphic file (type png)
 
 <use Plots/2018NoInterFits/EnPo20185thScan.png>
 Package pdftex.def Info: Plots/2018NoInterFits/EnPo20185thScan.png used on inpu
-t line 427.
+t line 438.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterFits/EnPo20186thScan.png, id=475, 798.985pt x 574.145pt>
+<Plots/2018NoInterFits/EnPo20186thScan.png, id=485, 798.985pt x 574.145pt>
 File: Plots/2018NoInterFits/EnPo20186thScan.png Graphic file (type png)
 
 <use Plots/2018NoInterFits/EnPo20186thScan.png>
 Package pdftex.def Info: Plots/2018NoInterFits/EnPo20186thScan.png used on inpu
-t line 428.
+t line 439.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2018NoInterFits/EnPo20187thScan.png, id=476, 798.985pt x 574.145pt>
+<Plots/2018NoInterFits/EnPo20187thScan.png, id=486, 798.985pt x 574.145pt>
 File: Plots/2018NoInterFits/EnPo20187thScan.png Graphic file (type png)
 
 <use Plots/2018NoInterFits/EnPo20187thScan.png>
 Package pdftex.def Info: Plots/2018NoInterFits/EnPo20187thScan.png used on inpu
-t line 429.
+t line 440.
 (pdftex.def)             Requested size: 178.5092pt x 128.27469pt.
 
-<Plots/2017/2nd/Normalized.png, id=484, 798.985pt x 574.145pt>
+<Plots/2017/2nd/Normalized.png, id=494, 798.985pt x 574.145pt>
 File: Plots/2017/2nd/Normalized.png Graphic file (type png)
 
 <use Plots/2017/2nd/Normalized.png>
-Package pdftex.def Info: Plots/2017/2nd/Normalized.png used on input line 446.
+Package pdftex.def Info: Plots/2017/2nd/Normalized.png used on input line 457.
 (pdftex.def)             Requested size: 211.38832pt x 151.90239pt.
 
-<Plots/2017/3rd/Normalized.png, id=485, 798.985pt x 574.145pt>
+<Plots/2017/3rd/Normalized.png, id=495, 798.985pt x 574.145pt>
 File: Plots/2017/3rd/Normalized.png Graphic file (type png)
 
 <use Plots/2017/3rd/Normalized.png>
-Package pdftex.def Info: Plots/2017/3rd/Normalized.png used on input line 447.
+Package pdftex.def Info: Plots/2017/3rd/Normalized.png used on input line 458.
 (pdftex.def)             Requested size: 211.38832pt x 151.90239pt.
 
-<Plots/2018/3rd/Normalized.png, id=486, 798.985pt x 574.145pt>
+<Plots/2018/3rd/Normalized.png, id=496, 798.985pt x 574.145pt>
 File: Plots/2018/3rd/Normalized.png Graphic file (type png)
 
 <use Plots/2018/3rd/Normalized.png>
-Package pdftex.def Info: Plots/2018/3rd/Normalized.png used on input line 448.
+Package pdftex.def Info: Plots/2018/3rd/Normalized.png used on input line 459.
 (pdftex.def)             Requested size: 211.38832pt x 151.90239pt.
 
-<Plots/2018/4th/Normalized.png, id=487, 798.985pt x 574.145pt>
+<Plots/2018/4th/Normalized.png, id=497, 798.985pt x 574.145pt>
 File: Plots/2018/4th/Normalized.png Graphic file (type png)
 
 <use Plots/2018/4th/Normalized.png>
-Package pdftex.def Info: Plots/2018/4th/Normalized.png used on input line 449.
+Package pdftex.def Info: Plots/2018/4th/Normalized.png used on input line 460.
 (pdftex.def)             Requested size: 211.38832pt x 151.90239pt.
 
-<Plots/2018/5th/Normalized.png, id=488, 798.985pt x 574.145pt>
+<Plots/2018/5th/Normalized.png, id=498, 798.985pt x 574.145pt>
 File: Plots/2018/5th/Normalized.png Graphic file (type png)
 
 <use Plots/2018/5th/Normalized.png>
-Package pdftex.def Info: Plots/2018/5th/Normalized.png used on input line 450.
+Package pdftex.def Info: Plots/2018/5th/Normalized.png used on input line 461.
 (pdftex.def)             Requested size: 211.38832pt x 151.90239pt.
 
-<Plots/2018/6th/Normalized.png, id=489, 798.985pt x 574.145pt>
+<Plots/2018/6th/Normalized.png, id=499, 798.985pt x 574.145pt>
 File: Plots/2018/6th/Normalized.png Graphic file (type png)
 
 <use Plots/2018/6th/Normalized.png>
-Package pdftex.def Info: Plots/2018/6th/Normalized.png used on input line 451.
+Package pdftex.def Info: Plots/2018/6th/Normalized.png used on input line 462.
 (pdftex.def)             Requested size: 211.38832pt x 151.90239pt.
 
-<Plots/2018/7th/Normalized.png, id=490, 798.985pt x 574.145pt>
+<Plots/2018/7th/Normalized.png, id=500, 798.985pt x 574.145pt>
 File: Plots/2018/7th/Normalized.png Graphic file (type png)
 
 <use Plots/2018/7th/Normalized.png>
-Package pdftex.def Info: Plots/2018/7th/Normalized.png used on input line 452.
+Package pdftex.def Info: Plots/2018/7th/Normalized.png used on input line 463.
 (pdftex.def)             Requested size: 211.38832pt x 151.90239pt.
 
 
-LaTeX Warning: Float too large for page by 18.17955pt on input line 456.
+LaTeX Warning: Float too large for page by 18.17955pt on input line 467.
 
-<Plots/2017/2nd/CombY5.png, id=491, 1200.485pt x 574.145pt>
+<Plots/2017/2nd/CombY5.png, id=501, 1200.485pt x 574.145pt>
 File: Plots/2017/2nd/CombY5.png Graphic file (type png)
 
 <use Plots/2017/2nd/CombY5.png>
-Package pdftex.def Info: Plots/2017/2nd/CombY5.png used on input line 460.
+Package pdftex.def Info: Plots/2017/2nd/CombY5.png used on input line 471.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/2nd/CombY6.png, id=492, 1200.485pt x 574.145pt>
+<Plots/2017/2nd/CombY6.png, id=502, 1200.485pt x 574.145pt>
 File: Plots/2017/2nd/CombY6.png Graphic file (type png)
 
 <use Plots/2017/2nd/CombY6.png>
-Package pdftex.def Info: Plots/2017/2nd/CombY6.png used on input line 461.
+Package pdftex.def Info: Plots/2017/2nd/CombY6.png used on input line 472.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/3rd/CombY5.png, id=493, 1200.485pt x 574.145pt>
+<Plots/2017/3rd/CombY5.png, id=503, 1200.485pt x 574.145pt>
 File: Plots/2017/3rd/CombY5.png Graphic file (type png)
 
 <use Plots/2017/3rd/CombY5.png>
-Package pdftex.def Info: Plots/2017/3rd/CombY5.png used on input line 462.
+Package pdftex.def Info: Plots/2017/3rd/CombY5.png used on input line 473.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/3rd/CombY6.png, id=494, 1200.485pt x 574.145pt>
+<Plots/2017/3rd/CombY6.png, id=504, 1200.485pt x 574.145pt>
 File: Plots/2017/3rd/CombY6.png Graphic file (type png)
 
 <use Plots/2017/3rd/CombY6.png>
-Package pdftex.def Info: Plots/2017/3rd/CombY6.png used on input line 463.
+Package pdftex.def Info: Plots/2017/3rd/CombY6.png used on input line 474.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/2nd/CombX5.png, id=495, 1200.485pt x 574.145pt>
+<Plots/2017/2nd/CombX5.png, id=505, 1200.485pt x 574.145pt>
 File: Plots/2017/2nd/CombX5.png Graphic file (type png)
 
 <use Plots/2017/2nd/CombX5.png>
-Package pdftex.def Info: Plots/2017/2nd/CombX5.png used on input line 471.
+Package pdftex.def Info: Plots/2017/2nd/CombX5.png used on input line 482.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/2nd/CombX6.png, id=496, 1200.485pt x 574.145pt>
+<Plots/2017/2nd/CombX6.png, id=506, 1200.485pt x 574.145pt>
 File: Plots/2017/2nd/CombX6.png Graphic file (type png)
 
 <use Plots/2017/2nd/CombX6.png>
-Package pdftex.def Info: Plots/2017/2nd/CombX6.png used on input line 472.
+Package pdftex.def Info: Plots/2017/2nd/CombX6.png used on input line 483.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/3rd/CombX5.png, id=497, 1200.485pt x 574.145pt>
+<Plots/2017/3rd/CombX5.png, id=507, 1200.485pt x 574.145pt>
 File: Plots/2017/3rd/CombX5.png Graphic file (type png)
 
 <use Plots/2017/3rd/CombX5.png>
-Package pdftex.def Info: Plots/2017/3rd/CombX5.png used on input line 473.
+Package pdftex.def Info: Plots/2017/3rd/CombX5.png used on input line 484.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/3rd/CombX6.png, id=498, 1200.485pt x 574.145pt>
+<Plots/2017/3rd/CombX6.png, id=508, 1200.485pt x 574.145pt>
 File: Plots/2017/3rd/CombX6.png Graphic file (type png)
 
 <use Plots/2017/3rd/CombX6.png>
-Package pdftex.def Info: Plots/2017/3rd/CombX6.png used on input line 474.
+Package pdftex.def Info: Plots/2017/3rd/CombX6.png used on input line 485.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/3rd/CombY5.png, id=499, 1200.485pt x 574.145pt>
+<Plots/2018/3rd/CombY5.png, id=509, 1200.485pt x 574.145pt>
 File: Plots/2018/3rd/CombY5.png Graphic file (type png)
 
 <use Plots/2018/3rd/CombY5.png>
-Package pdftex.def Info: Plots/2018/3rd/CombY5.png used on input line 483.
+Package pdftex.def Info: Plots/2018/3rd/CombY5.png used on input line 494.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/3rd/CombY6.png, id=500, 1200.485pt x 574.145pt>
+<Plots/2018/3rd/CombY6.png, id=510, 1200.485pt x 574.145pt>
 File: Plots/2018/3rd/CombY6.png Graphic file (type png)
 
 <use Plots/2018/3rd/CombY6.png>
-Package pdftex.def Info: Plots/2018/3rd/CombY6.png used on input line 484.
+Package pdftex.def Info: Plots/2018/3rd/CombY6.png used on input line 495.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/4th/CombY5.png, id=501, 1200.485pt x 574.145pt>
+<Plots/2018/4th/CombY5.png, id=511, 1200.485pt x 574.145pt>
 File: Plots/2018/4th/CombY5.png Graphic file (type png)
 
 <use Plots/2018/4th/CombY5.png>
-Package pdftex.def Info: Plots/2018/4th/CombY5.png used on input line 485.
+Package pdftex.def Info: Plots/2018/4th/CombY5.png used on input line 496.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/4th/CombY6.png, id=502, 1200.485pt x 574.145pt>
+<Plots/2018/4th/CombY6.png, id=512, 1200.485pt x 574.145pt>
 File: Plots/2018/4th/CombY6.png Graphic file (type png)
 
 <use Plots/2018/4th/CombY6.png>
-Package pdftex.def Info: Plots/2018/4th/CombY6.png used on input line 486.
+Package pdftex.def Info: Plots/2018/4th/CombY6.png used on input line 497.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/5th/CombY4.png, id=503, 1200.485pt x 574.145pt>
+<Plots/2018/5th/CombY4.png, id=513, 1200.485pt x 574.145pt>
 File: Plots/2018/5th/CombY4.png Graphic file (type png)
 
 <use Plots/2018/5th/CombY4.png>
-Package pdftex.def Info: Plots/2018/5th/CombY4.png used on input line 487.
+Package pdftex.def Info: Plots/2018/5th/CombY4.png used on input line 498.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/5th/CombY5.png, id=504, 1200.485pt x 574.145pt>
+<Plots/2018/5th/CombY5.png, id=514, 1200.485pt x 574.145pt>
 File: Plots/2018/5th/CombY5.png Graphic file (type png)
 
 <use Plots/2018/5th/CombY5.png>
-Package pdftex.def Info: Plots/2018/5th/CombY5.png used on input line 488.
+Package pdftex.def Info: Plots/2018/5th/CombY5.png used on input line 499.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/6th/CombY5.png, id=505, 1200.485pt x 574.145pt>
+<Plots/2018/6th/CombY5.png, id=515, 1200.485pt x 574.145pt>
 File: Plots/2018/6th/CombY5.png Graphic file (type png)
 
 <use Plots/2018/6th/CombY5.png>
-Package pdftex.def Info: Plots/2018/6th/CombY5.png used on input line 489.
+Package pdftex.def Info: Plots/2018/6th/CombY5.png used on input line 500.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/6th/CombY6.png, id=506, 1200.485pt x 574.145pt>
+<Plots/2018/6th/CombY6.png, id=516, 1200.485pt x 574.145pt>
 File: Plots/2018/6th/CombY6.png Graphic file (type png)
 
 <use Plots/2018/6th/CombY6.png>
-Package pdftex.def Info: Plots/2018/6th/CombY6.png used on input line 490.
+Package pdftex.def Info: Plots/2018/6th/CombY6.png used on input line 501.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/7th/CombY5.png, id=507, 1200.485pt x 574.145pt>
+<Plots/2018/7th/CombY5.png, id=517, 1200.485pt x 574.145pt>
 File: Plots/2018/7th/CombY5.png Graphic file (type png)
 
 <use Plots/2018/7th/CombY5.png>
-Package pdftex.def Info: Plots/2018/7th/CombY5.png used on input line 491.
+Package pdftex.def Info: Plots/2018/7th/CombY5.png used on input line 502.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/7th/CombY6.png, id=508, 1200.485pt x 574.145pt>
+<Plots/2018/7th/CombY6.png, id=518, 1200.485pt x 574.145pt>
 File: Plots/2018/7th/CombY6.png Graphic file (type png)
 
 <use Plots/2018/7th/CombY6.png>
-Package pdftex.def Info: Plots/2018/7th/CombY6.png used on input line 492.
+Package pdftex.def Info: Plots/2018/7th/CombY6.png used on input line 503.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/3rd/CombX6.png, id=509, 1200.485pt x 574.145pt>
+<Plots/2018/3rd/CombX6.png, id=519, 1200.485pt x 574.145pt>
 File: Plots/2018/3rd/CombX6.png Graphic file (type png)
 
 <use Plots/2018/3rd/CombX6.png>
-Package pdftex.def Info: Plots/2018/3rd/CombX6.png used on input line 500.
+Package pdftex.def Info: Plots/2018/3rd/CombX6.png used on input line 511.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/3rd/CombX7.png, id=510, 1200.485pt x 574.145pt>
+<Plots/2018/3rd/CombX7.png, id=520, 1200.485pt x 574.145pt>
 File: Plots/2018/3rd/CombX7.png Graphic file (type png)
 
 <use Plots/2018/3rd/CombX7.png>
-Package pdftex.def Info: Plots/2018/3rd/CombX7.png used on input line 501.
+Package pdftex.def Info: Plots/2018/3rd/CombX7.png used on input line 512.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/4th/CombX6.png, id=511, 1200.485pt x 574.145pt>
+<Plots/2018/4th/CombX6.png, id=521, 1200.485pt x 574.145pt>
 File: Plots/2018/4th/CombX6.png Graphic file (type png)
 
 <use Plots/2018/4th/CombX6.png>
-Package pdftex.def Info: Plots/2018/4th/CombX6.png used on input line 502.
+Package pdftex.def Info: Plots/2018/4th/CombX6.png used on input line 513.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/4th/CombX7.png, id=512, 1200.485pt x 574.145pt>
+<Plots/2018/4th/CombX7.png, id=522, 1200.485pt x 574.145pt>
 File: Plots/2018/4th/CombX7.png Graphic file (type png)
 
 <use Plots/2018/4th/CombX7.png>
-Package pdftex.def Info: Plots/2018/4th/CombX7.png used on input line 503.
+Package pdftex.def Info: Plots/2018/4th/CombX7.png used on input line 514.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/5th/CombX6.png, id=513, 1200.485pt x 574.145pt>
+<Plots/2018/5th/CombX6.png, id=523, 1200.485pt x 574.145pt>
 File: Plots/2018/5th/CombX6.png Graphic file (type png)
 
 <use Plots/2018/5th/CombX6.png>
-Package pdftex.def Info: Plots/2018/5th/CombX6.png used on input line 504.
+Package pdftex.def Info: Plots/2018/5th/CombX6.png used on input line 515.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/5th/CombX7.png, id=514, 1200.485pt x 574.145pt>
+<Plots/2018/5th/CombX7.png, id=524, 1200.485pt x 574.145pt>
 File: Plots/2018/5th/CombX7.png Graphic file (type png)
 
 <use Plots/2018/5th/CombX7.png>
-Package pdftex.def Info: Plots/2018/5th/CombX7.png used on input line 505.
+Package pdftex.def Info: Plots/2018/5th/CombX7.png used on input line 516.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/6th/CombX6.png, id=515, 1200.485pt x 574.145pt>
+<Plots/2018/6th/CombX6.png, id=525, 1200.485pt x 574.145pt>
 File: Plots/2018/6th/CombX6.png Graphic file (type png)
 
 <use Plots/2018/6th/CombX6.png>
-Package pdftex.def Info: Plots/2018/6th/CombX6.png used on input line 506.
+Package pdftex.def Info: Plots/2018/6th/CombX6.png used on input line 517.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/6th/CombX7.png, id=516, 1200.485pt x 574.145pt>
+<Plots/2018/6th/CombX7.png, id=526, 1200.485pt x 574.145pt>
 File: Plots/2018/6th/CombX7.png Graphic file (type png)
 
 <use Plots/2018/6th/CombX7.png>
-Package pdftex.def Info: Plots/2018/6th/CombX7.png used on input line 507.
+Package pdftex.def Info: Plots/2018/6th/CombX7.png used on input line 518.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/7th/CombX6.png, id=517, 1200.485pt x 574.145pt>
+<Plots/2018/7th/CombX6.png, id=527, 1200.485pt x 574.145pt>
 File: Plots/2018/7th/CombX6.png Graphic file (type png)
 
 <use Plots/2018/7th/CombX6.png>
-Package pdftex.def Info: Plots/2018/7th/CombX6.png used on input line 508.
+Package pdftex.def Info: Plots/2018/7th/CombX6.png used on input line 519.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/7th/CombX7.png, id=518, 1200.485pt x 574.145pt>
+<Plots/2018/7th/CombX7.png, id=528, 1200.485pt x 574.145pt>
 File: Plots/2018/7th/CombX7.png Graphic file (type png)
 
 <use Plots/2018/7th/CombX7.png>
-Package pdftex.def Info: Plots/2018/7th/CombX7.png used on input line 509.
+Package pdftex.def Info: Plots/2018/7th/CombX7.png used on input line 520.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/2nd/ProjectionRange.png, id=520, 598.235pt x 574.145pt>
+<Plots/2017/2nd/ProjectionRange.png, id=530, 598.235pt x 574.145pt>
 File: Plots/2017/2nd/ProjectionRange.png Graphic file (type png)
 
 <use Plots/2017/2nd/ProjectionRange.png>
 Package pdftex.def Info: Plots/2017/2nd/ProjectionRange.png used on input line 
-522.
+533.
 (pdftex.def)             Requested size: 159.71498pt x 153.28659pt.
 
-<Plots/2017/3rd/ProjectionRange.png, id=521, 598.235pt x 574.145pt>
+<Plots/2017/3rd/ProjectionRange.png, id=531, 598.235pt x 574.145pt>
 File: Plots/2017/3rd/ProjectionRange.png Graphic file (type png)
 
 <use Plots/2017/3rd/ProjectionRange.png>
 Package pdftex.def Info: Plots/2017/3rd/ProjectionRange.png used on input line 
-523.
+534.
 (pdftex.def)             Requested size: 159.71498pt x 153.28659pt.
 
-<Plots/2018/3rd/ProjectionRange.png, id=522, 598.235pt x 574.145pt>
+<Plots/2018/3rd/ProjectionRange.png, id=532, 598.235pt x 574.145pt>
 File: Plots/2018/3rd/ProjectionRange.png Graphic file (type png)
 
 <use Plots/2018/3rd/ProjectionRange.png>
 Package pdftex.def Info: Plots/2018/3rd/ProjectionRange.png used on input line 
-524.
+535.
 (pdftex.def)             Requested size: 159.71498pt x 153.28659pt.
 
-<Plots/2018/4th/ProjectionRange.png, id=523, 598.235pt x 574.145pt>
+<Plots/2018/4th/ProjectionRange.png, id=533, 598.235pt x 574.145pt>
 File: Plots/2018/4th/ProjectionRange.png Graphic file (type png)
 
 <use Plots/2018/4th/ProjectionRange.png>
 Package pdftex.def Info: Plots/2018/4th/ProjectionRange.png used on input line 
-525.
+536.
 (pdftex.def)             Requested size: 159.71498pt x 153.28659pt.
 
-<Plots/2018/5th/ProjectionRange.png, id=524, 598.235pt x 574.145pt>
+<Plots/2018/5th/ProjectionRange.png, id=534, 598.235pt x 574.145pt>
 File: Plots/2018/5th/ProjectionRange.png Graphic file (type png)
 
 <use Plots/2018/5th/ProjectionRange.png>
 Package pdftex.def Info: Plots/2018/5th/ProjectionRange.png used on input line 
-526.
+537.
 (pdftex.def)             Requested size: 159.71498pt x 153.28659pt.
 
-<Plots/2018/6th/ProjectionRange.png, id=525, 598.235pt x 574.145pt>
+<Plots/2018/6th/ProjectionRange.png, id=535, 598.235pt x 574.145pt>
 File: Plots/2018/6th/ProjectionRange.png Graphic file (type png)
 
 <use Plots/2018/6th/ProjectionRange.png>
 Package pdftex.def Info: Plots/2018/6th/ProjectionRange.png used on input line 
-527.
+538.
 (pdftex.def)             Requested size: 159.71498pt x 153.28659pt.
 
-<Plots/2018/7th/ProjectionRange.png, id=526, 598.235pt x 574.145pt>
+<Plots/2018/7th/ProjectionRange.png, id=536, 598.235pt x 574.145pt>
 File: Plots/2018/7th/ProjectionRange.png Graphic file (type png)
 
 <use Plots/2018/7th/ProjectionRange.png>
 Package pdftex.def Info: Plots/2018/7th/ProjectionRange.png used on input line 
-528.
+539.
 (pdftex.def)             Requested size: 159.71498pt x 153.28659pt.
 
 
-LaTeX Warning: Float too large for page by 23.71635pt on input line 532.
+LaTeX Warning: Float too large for page by 23.71635pt on input line 543.
 
 [17] [18 <./Plots/InterMean/Inter20172ndScan.png> <./Plots/InterMean/Inter20173
 rdScan.png> <./Plots/InterMean/Inter20183rdScan.png> <./Plots/InterMean/Inter20
@@ -1623,101 +1663,104 @@ erFits/Inter20183rdScan.png> <./Plots/InterFits/Inter20184thScan.png> <./Plots/
 InterFits/Inter20185thScan.png> <./Plots/InterFits/Inter20186thScan.png> <./Plo
 ts/InterFits/Inter20187thScan.png>] [20 <./Plots/BlockConfig/Inter20172ndScanLa
 beled.png> <./Plots/BlockConfig/Inter20173rdScanLabeled.png> <./Plots/BlockConf
-ig/BlockConfig.png>] [21 <./Plots/InterMeanWithLine/Inter20172ndScan.png> <./Pl
-ots/InterMeanWithLine/Inter20173rdScan.png> <./Plots/2018NoInterMean/EnPo20183r
-dScan.png> <./Plots/2018NoInterMean/EnPo20184thScan.png> <./Plots/2018NoInterMe
-an/EnPo20185thScan.png> <./Plots/2018NoInterMean/EnPo20186thScan.png> <./Plots/
-2018NoInterMean/EnPo20187thScan.png>] [22 <./Plots/InterFitsWithLine/Inter20172
-ndScan.png> <./Plots/InterFitsWithLine/Inter20173rdScan.png> <./Plots/2018NoInt
-erFits/EnPo20183rdScan.png> <./Plots/2018NoInterFits/EnPo20184thScan.png> <./Pl
-ots/2018NoInterFits/EnPo20185thScan.png> <./Plots/2018NoInterFits/EnPo20186thSc
-an.png> <./Plots/2018NoInterFits/EnPo20187thScan.png>] [23 <./Plots/2017/2nd/No
-rmalized.png> <./Plots/2017/3rd/Normalized.png> <./Plots/2018/3rd/Normalized.pn
-g> <./Plots/2018/4th/Normalized.png> <./Plots/2018/5th/Normalized.png> <./Plots
-/2018/6th/Normalized.png> <./Plots/2018/7th/Normalized.png>] [24 <./Plots/2017/
-2nd/CombY5.png> <./Plots/2017/2nd/CombY6.png> <./Plots/2017/3rd/CombY5.png> <./
-Plots/2017/3rd/CombY6.png> <./Plots/2017/2nd/CombX5.png> <./Plots/2017/2nd/Comb
-X6.png> <./Plots/2017/3rd/CombX5.png> <./Plots/2017/3rd/CombX6.png>] [25 <./Plo
-ts/2018/3rd/CombY5.png> <./Plots/2018/3rd/CombY6.png> <./Plots/2018/4th/CombY5.
-png> <./Plots/2018/4th/CombY6.png> <./Plots/2018/5th/CombY4.png> <./Plots/2018/
-5th/CombY5.png> <./Plots/2018/6th/CombY5.png> <./Plots/2018/6th/CombY6.png> <./
-Plots/2018/7th/CombY5.png> <./Plots/2018/7th/CombY6.png>] [26 <./Plots/2018/3rd
-/CombX6.png> <./Plots/2018/3rd/CombX7.png> <./Plots/2018/4th/CombX6.png> <./Plo
-ts/2018/4th/CombX7.png> <./Plots/2018/5th/CombX6.png> <./Plots/2018/5th/CombX7.
-png> <./Plots/2018/6th/CombX6.png> <./Plots/2018/6th/CombX7.png> <./Plots/2018/
-7th/CombX6.png> <./Plots/2018/7th/CombX7.png>]
-<Plots/CentralProj/20172ndRMSPlotGausFitted.png, id=574, 598.235pt x 574.145pt>
+ig/BlockConfig.png>] [21 <./Plots/BlockConfig/Inter20185thScanLabeled.png> <./P
+lots/BlockConfig/Inter20186thScanLabeled.png> <./Plots/BlockConfig/Inter20187th
+ScanLabeled.png> <./Plots/BlockConfig/BlockConfig2018.png>] [22 <./Plots/InterM
+eanWithLine/Inter20172ndScan.png> <./Plots/InterMeanWithLine/Inter20173rdScan.p
+ng> <./Plots/2018NoInterMean/EnPo20183rdScan.png> <./Plots/2018NoInterMean/EnPo
+20184thScan.png> <./Plots/2018NoInterMean/EnPo20185thScan.png> <./Plots/2018NoI
+nterMean/EnPo20186thScan.png> <./Plots/2018NoInterMean/EnPo20187thScan.png>]
+[23 <./Plots/InterFitsWithLine/Inter20172ndScan.png> <./Plots/InterFitsWithLine
+/Inter20173rdScan.png> <./Plots/2018NoInterFits/EnPo20183rdScan.png> <./Plots/2
+018NoInterFits/EnPo20184thScan.png> <./Plots/2018NoInterFits/EnPo20185thScan.pn
+g> <./Plots/2018NoInterFits/EnPo20186thScan.png> <./Plots/2018NoInterFits/EnPo2
+0187thScan.png>] [24 <./Plots/2017/2nd/Normalized.png> <./Plots/2017/3rd/Normal
+ized.png> <./Plots/2018/3rd/Normalized.png> <./Plots/2018/4th/Normalized.png> <
+./Plots/2018/5th/Normalized.png> <./Plots/2018/6th/Normalized.png> <./Plots/201
+8/7th/Normalized.png>] [25 <./Plots/2017/2nd/CombY5.png> <./Plots/2017/2nd/Comb
+Y6.png> <./Plots/2017/3rd/CombY5.png> <./Plots/2017/3rd/CombY6.png> <./Plots/20
+17/2nd/CombX5.png> <./Plots/2017/2nd/CombX6.png> <./Plots/2017/3rd/CombX5.png> 
+<./Plots/2017/3rd/CombX6.png>] [26 <./Plots/2018/3rd/CombY5.png> <./Plots/2018/
+3rd/CombY6.png> <./Plots/2018/4th/CombY5.png> <./Plots/2018/4th/CombY6.png> <./
+Plots/2018/5th/CombY4.png> <./Plots/2018/5th/CombY5.png> <./Plots/2018/6th/Comb
+Y5.png> <./Plots/2018/6th/CombY6.png> <./Plots/2018/7th/CombY5.png> <./Plots/20
+18/7th/CombY6.png>] [27 <./Plots/2018/3rd/CombX6.png> <./Plots/2018/3rd/CombX7.
+png> <./Plots/2018/4th/CombX6.png> <./Plots/2018/4th/CombX7.png> <./Plots/2018/
+5th/CombX6.png> <./Plots/2018/5th/CombX7.png> <./Plots/2018/6th/CombX6.png> <./
+Plots/2018/6th/CombX7.png> <./Plots/2018/7th/CombX6.png> <./Plots/2018/7th/Comb
+X7.png>]
+<Plots/CentralProj/20172ndRMSPlotGausFitted.png, id=590, 598.235pt x 574.145pt>
 File: Plots/CentralProj/20172ndRMSPlotGausFitted.png Graphic file (type png)
 <use Plots/CentralProj/20172ndRMSPlotGausFitted.png>
 Package pdftex.def Info: Plots/CentralProj/20172ndRMSPlotGausFitted.png used on
- input line 540.
+ input line 551.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 
-<Plots/CentralProj/20173rdRMSPlotGausFitted.png, id=575, 598.235pt x 574.145pt>
+<Plots/CentralProj/20173rdRMSPlotGausFitted.png, id=591, 598.235pt x 574.145pt>
 File: Plots/CentralProj/20173rdRMSPlotGausFitted.png Graphic file (type png)
 <use Plots/CentralProj/20173rdRMSPlotGausFitted.png>
 Package pdftex.def Info: Plots/CentralProj/20173rdRMSPlotGausFitted.png used on
- input line 541.
+ input line 552.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 
-<Plots/CentralProj/20183rdRMSPlotGausFitted.png, id=576, 598.235pt x 574.145pt>
+<Plots/CentralProj/20183rdRMSPlotGausFitted.png, id=592, 598.235pt x 574.145pt>
 File: Plots/CentralProj/20183rdRMSPlotGausFitted.png Graphic file (type png)
 <use Plots/CentralProj/20183rdRMSPlotGausFitted.png>
 Package pdftex.def Info: Plots/CentralProj/20183rdRMSPlotGausFitted.png used on
- input line 542.
+ input line 553.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 
-<Plots/CentralProj/20184thRMSPlotGausFitted.png, id=577, 598.235pt x 574.145pt>
+<Plots/CentralProj/20184thRMSPlotGausFitted.png, id=593, 598.235pt x 574.145pt>
 File: Plots/CentralProj/20184thRMSPlotGausFitted.png Graphic file (type png)
 <use Plots/CentralProj/20184thRMSPlotGausFitted.png>
 Package pdftex.def Info: Plots/CentralProj/20184thRMSPlotGausFitted.png used on
- input line 543.
+ input line 554.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 
-<Plots/CentralProj/20185thRMSPlotGausFitted.png, id=578, 598.235pt x 574.145pt>
+<Plots/CentralProj/20185thRMSPlotGausFitted.png, id=594, 598.235pt x 574.145pt>
 File: Plots/CentralProj/20185thRMSPlotGausFitted.png Graphic file (type png)
 <use Plots/CentralProj/20185thRMSPlotGausFitted.png>
 Package pdftex.def Info: Plots/CentralProj/20185thRMSPlotGausFitted.png used on
- input line 544.
+ input line 555.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 
-<Plots/CentralProj/20186thRMSPlotGausFitted.png, id=579, 598.235pt x 574.145pt>
+<Plots/CentralProj/20186thRMSPlotGausFitted.png, id=595, 598.235pt x 574.145pt>
 File: Plots/CentralProj/20186thRMSPlotGausFitted.png Graphic file (type png)
 <use Plots/CentralProj/20186thRMSPlotGausFitted.png>
 Package pdftex.def Info: Plots/CentralProj/20186thRMSPlotGausFitted.png used on
- input line 545.
+ input line 556.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 
-<Plots/CentralProj/20187thRMSPlotGausFitted.png, id=580, 598.235pt x 574.145pt>
+<Plots/CentralProj/20187thRMSPlotGausFitted.png, id=596, 598.235pt x 574.145pt>
 File: Plots/CentralProj/20187thRMSPlotGausFitted.png Graphic file (type png)
 <use Plots/CentralProj/20187thRMSPlotGausFitted.png>
 Package pdftex.def Info: Plots/CentralProj/20187thRMSPlotGausFitted.png used on
- input line 546.
+ input line 557.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 
-Overfull \hbox (45.18825pt too wide) in paragraph at lines 555--588
+Overfull \hbox (45.18825pt too wide) in paragraph at lines 566--599
  [][] 
  []
 
-<Plots/AllComparison/AllComparison0.png, id=583, 1200.485pt x 1176.395pt>
+<Plots/AllComparison/AllComparison0.png, id=599, 1200.485pt x 1176.395pt>
 File: Plots/AllComparison/AllComparison0.png Graphic file (type png)
 
 <use Plots/AllComparison/AllComparison0.png>
 Package pdftex.def Info: Plots/AllComparison/AllComparison0.png used on input l
-ine 601.
+ine 612.
 (pdftex.def)             Requested size: 216.09045pt x 211.74196pt.
 
-<Plots/AllComparison/AllComparison1.png, id=584, 1200.485pt x 1176.395pt>
+<Plots/AllComparison/AllComparison1.png, id=600, 1200.485pt x 1176.395pt>
 File: Plots/AllComparison/AllComparison1.png Graphic file (type png)
 
 <use Plots/AllComparison/AllComparison1.png>
 Package pdftex.def Info: Plots/AllComparison/AllComparison1.png used on input l
-ine 602.
+ine 613.
 (pdftex.def)             Requested size: 216.09045pt x 211.74196pt.
- [27] [28 <./Plots/2017/2nd/ProjectionRange.png> <./Plots/2017/3rd/ProjectionRa
+ [28] [29 <./Plots/2017/2nd/ProjectionRange.png> <./Plots/2017/3rd/ProjectionRa
 nge.png> <./Plots/2018/3rd/ProjectionRange.png> <./Plots/2018/4th/ProjectionRan
 ge.png> <./Plots/2018/5th/ProjectionRange.png> <./Plots/2018/6th/ProjectionRang
-e.png> <./Plots/2018/7th/ProjectionRange.png>] [29 <./Plots/CentralProj/20172nd
+e.png> <./Plots/2018/7th/ProjectionRange.png>] [30 <./Plots/CentralProj/20172nd
 RMSPlotGausFitted.png> <./Plots/CentralProj/20173rdRMSPlotGausFitted.png> <./Pl
 ots/CentralProj/20183rdRMSPlotGausFitted.png> <./Plots/CentralProj/20184thRMSPl
 otGausFitted.png> <./Plots/CentralProj/20185thRMSPlotGausFitted.png> <./Plots/C
@@ -1726,90 +1769,97 @@ sFitted.png>]
 File: Plots/2017/3rd/CombY5.png Graphic file (type png)
 
 <use Plots/2017/3rd/CombY5.png>
-Package pdftex.def Info: Plots/2017/3rd/CombY5.png used on input line 620.
+Package pdftex.def Info: Plots/2017/3rd/CombY5.png used on input line 631.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/5th/CombY7.png, id=601, 1200.485pt x 574.145pt>
+<Plots/2018/5th/CombY7.png, id=617, 1200.485pt x 574.145pt>
 File: Plots/2018/5th/CombY7.png Graphic file (type png)
 
 <use Plots/2018/5th/CombY7.png>
-Package pdftex.def Info: Plots/2018/5th/CombY7.png used on input line 621.
+Package pdftex.def Info: Plots/2018/5th/CombY7.png used on input line 632.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 File: Plots/2017/3rd/CombX5.png Graphic file (type png)
  <use Plots/2017/3rd/CombX5.png>
-Package pdftex.def Info: Plots/2017/3rd/CombX5.png used on input line 622.
+Package pdftex.def Info: Plots/2017/3rd/CombX5.png used on input line 633.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 File: Plots/2018/5th/CombX6.png Graphic file (type png)
 
 <use Plots/2018/5th/CombX6.png>
-Package pdftex.def Info: Plots/2018/5th/CombX6.png used on input line 623.
+Package pdftex.def Info: Plots/2018/5th/CombX6.png used on input line 634.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 File: Plots/2017/2nd/CombY5.png Graphic file (type png)
  <use Plots/2017/2nd/CombY5.png>
-Package pdftex.def Info: Plots/2017/2nd/CombY5.png used on input line 631.
+Package pdftex.def Info: Plots/2017/2nd/CombY5.png used on input line 642.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2018/6th/CombY7.png, id=602, 1200.485pt x 574.145pt>
+<Plots/2018/6th/CombY7.png, id=618, 1200.485pt x 574.145pt>
 File: Plots/2018/6th/CombY7.png Graphic file (type png)
 
 <use Plots/2018/6th/CombY7.png>
-Package pdftex.def Info: Plots/2018/6th/CombY7.png used on input line 632.
+Package pdftex.def Info: Plots/2018/6th/CombY7.png used on input line 643.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 
-<Plots/2017/2nd/CombX3.png, id=603, 1200.485pt x 574.145pt>
+<Plots/2017/2nd/CombX3.png, id=619, 1200.485pt x 574.145pt>
 File: Plots/2017/2nd/CombX3.png Graphic file (type png)
 
 <use Plots/2017/2nd/CombX3.png>
-Package pdftex.def Info: Plots/2017/2nd/CombX3.png used on input line 633.
+Package pdftex.def Info: Plots/2017/2nd/CombX3.png used on input line 644.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
 File: Plots/2018/6th/CombX6.png Graphic file (type png)
  <use Plots/2018/6th/CombX6.png>
-Package pdftex.def Info: Plots/2018/6th/CombX6.png used on input line 634.
+Package pdftex.def Info: Plots/2018/6th/CombX6.png used on input line 645.
 (pdftex.def)             Requested size: 211.38832pt x 101.09889pt.
- [30 <./Plots/AllComparison/AllComparison0.png> <./Plots/AllComparison/AllCompa
+ [31 <./Plots/AllComparison/AllComparison0.png> <./Plots/AllComparison/AllCompa
 rison1.png>]
-[31 <./Plots/2018/5th/CombY7.png> <./Plots/2018/6th/CombY7.png> <./Plots/2017/2
-nd/CombX3.png>] [32]
-Underfull \hbox (badness 10000) in paragraph at lines 695--696
+[32 <./Plots/2018/5th/CombY7.png> <./Plots/2018/6th/CombY7.png> <./Plots/2017/2
+nd/CombX3.png>] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
 []\OT1/cmr/m/n/10.95 Jin Huang's slide on shower cal-i-bra-tion: []$\OT1/cmtt/m
 /n/10.95 https : / / indico . bnl . gov / event / 2312 /
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 696--697
+Underfull \hbox (badness 3482) in paragraph at lines 707--708
 []\OT1/cmr/m/n/10.95 Joe Os-born's anal-y-sis notes on the sPHENIX EM-Cal en-er
 gy res-o-lu-tion and lin-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 697--699
+Underfull \hbox (badness 1902) in paragraph at lines 708--710
 []\OT1/cmr/m/n/10.95 Edward Kistenev's pre-sen-ta-tion on the de-vel-op-ment of
  the High Den-sity pro-jec-tive
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 697--699
+Underfull \hbox (badness 1132) in paragraph at lines 708--710
 \OT1/cmr/m/n/10.95 shash-lik EM-Cal for EIC De-tec-tor, []$\OT1/cmtt/m/n/10.95 
 https : / / wiki . bnl . gov / conferences / images / 8 / 8d /
  []
 
 No file "EMCAL Analysis Notes".bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 704.
-[33]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 704.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 715.
+[34]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 715.
  (./EMCAL Analysis Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 704.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 704.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 715.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 715.
 Package rerunfilecheck Info: File `"EMCAL Analysis Notes".out' has not changed.
 
 (rerunfilecheck)             Checksum: E530F78CC8D6774C439744E5DBF52181;1824.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 704.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 715.
  ) 
 Here is how much of TeX's memory you used:
- 9160 strings out of 493089
- 148110 string characters out of 6134842
- 269667 words of memory out of 5000000
- 12343 multiletter control sequences out of 15000+600000
+ 9183 strings out of 493089
+ 149018 string characters out of 6134842
+ 272451 words of memory out of 5000000
+ 12360 multiletter control sequences out of 15000+600000
  13527 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,10n,43p,1853b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1824,10 +1874,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "EMCAL Analysis Notes.pdf" (33 pages, 5536046 bytes).
+Output written on "EMCAL Analysis Notes.pdf" (34 pages, 6668455 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
- 97 named destinations out of 1000 (max. 500000)
- 837 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 718 PDF objects out of 1000 (max. 8388607)
+ 528 compressed objects within 6 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 857 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -367,7 +367,7 @@ As we can see from Figure~\ref{fig:FitsMethods}, the position for the 2018 test 
 \includegraphics[width=0.38\textwidth]{Plots/InterMean/Inter20185thScan.png}
 \includegraphics[width=0.38\textwidth]{Plots/InterMean/Inter20186thScan.png}
 \includegraphics[width=0.38\textwidth]{Plots/InterMean/Inter20187thScan.png}
-\caption{The interpolated mean energy vs position with the mean method in the 2017 test beam second position scan ($10 \degree$ tilted, top left), third position scan ($0 \degree$ tilted, top right), 2018 test beam third position scan (dual channeling, middle left), fourth position scan (sPHENIX rotation to, middle right), fifth position scan (dual channeling, bottom left), sixth position scan (sPHENIX rotation + 5, bottom middle),  seventh position scan (sPHENIX rotation bottom right) on the EMCal with different signs are plotted above.}
+\caption{The interpolated mean energy vs position with the mean method in the 2017 test beam second position scan ($10 \degree$ tilted, top left), third position scan ($0 \degree$ tilted, top right), 2018 test beam third position scan (dual channeling, middle left), fourth position scan (sPHENIX rotation, middle right), fifth position scan (dual channeling, bottom left), sixth position scan (sPHENIX rotation + 5, bottom middle),  seventh position scan (sPHENIX rotation, bottom right) on the EMCal with different signs are plotted above.}
 \label{fig:MeanMethods}
 \end{center}
 \end{figure} 
@@ -388,14 +388,25 @@ As we can see from Figure~\ref{fig:FitsMethods}, the position for the 2018 test 
 
 \subsection{Tower Boundaries Implementation}
 
-Finally, we implement the tower boundaries to our interpolated (continuous) energy vs position plots according to the steps in the hodoscope correction plots. Also, we remove the interpolation for the 2018 test beam results because of the uniform spacing. Figure~\ref{fig:BlockEMCAL} shows the Second position scan in the 2017 test beam and the corresponding the EMCal block configuration. 
+Finally, we implement the tower boundaries to our interpolated (continuous) energy vs position plots according to the steps in the hodoscope correction plots. Also, we remove the interpolation for the 2018 test beam results because of the uniform spacing. Figure~\ref{fig:BlockEMCAL} and Figure~\ref{fig:BlockEMCAL2018} shows the Second position scan in the 2017 and 2018 respectfully test beam and the corresponding the EMCal block configuration. 
 
 \begin{figure}[hbtp]
 \begin{center}
 \includegraphics[width=0.38\textwidth]{Plots/BlockConfig/Inter20172ndScanLabeled.png}
 \includegraphics[width=0.38\textwidth]{Plots/BlockConfig/Inter20173rdScanLabeled.png}
 \includegraphics[width=0.38\textwidth]{Plots/BlockConfig/BlockConfig.png}
-\caption{The interpolated mean energy vs position with the fits method in the 2017 test beam second position scan with EMCal boundaries ($10 \degree$ tilted, top left), third position scan ($0 \degree$ tilted, top right), and the corresponding EMCal block configuration (down middle) are shown above.}
+\caption{The interpolated mean energy vs position with the fits method in the 2017 test beam second position scan with EMCal boundaries ($10 \degree$ tilted, top left), third position scan ($0 \degree$ tilted, top right), and the corresponding EMCal block configuration (bottom middle) are shown above.}
+\label{fig:BlockEMCAL}
+\end{center}
+\end{figure} 
+
+\begin{figure}[hbtp]
+\begin{center}
+\includegraphics[width=0.38\textwidth]{Plots/BlockConfig/Inter20185thScanLabeled.png}
+\includegraphics[width=0.38\textwidth]{Plots/BlockConfig/Inter20186thScanLabeled.png}
+\includegraphics[width=0.38\textwidth]{Plots/BlockConfig/Inter20187thScanLabeled.png}
+\includegraphics[width=0.38\textwidth]{Plots/BlockConfig/BlockConfig2018.png}
+\caption{The mean energy vs position with the fits method in the 2018 test beam fifth position scan with EMCal boundaries (dual channeling, top left), sixth position scan (sPHENIX rotation + 5, top right), sixth position scan (sPHENIX rotation, bottom left), and the corresponding EMCal block configuration (bottom right) are shown above.}
 \label{fig:BlockEMCAL}
 \end{center}
 \end{figure} 
